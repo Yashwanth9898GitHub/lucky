@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lucky Number Calculator</title>
+    <script src="cal.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="page-container">
+        <div class="container">
+            <h1 class="heading">Lucky Number Calculator</h1>
+            <div class="card-container">
+                <form id="luckyNumberForm">
+                    <h4>Please enter the last 4 digits of your bike number:</h4>
+                    
+                    <input type="text" id="numberInput" onkeydown="handleKeyDown(event)"><br><br>
+                    <input type="button" value="Display" onclick="calculateLuckyNumber()">
+                </form>
+                <h1 id="luckyNumberResult"></h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-cities">
+            <div class="footer-city">
+                <a href="https://tgtransport.net/TGCFSTONLINE/Reports/VehicleRegistrationSearch.aspx">Telangana_State(TS)</a>
+            </div>
+            <div class="footer-city">
+                <a href="https://www.aptransport.org/">Andhra_Pradesh(AP)</a>
+            </div>
+            <div class="footer-city">
+                <a href="https://www.drivespark.com/rto-vehicle-registration-details/tamil-nadu/">Tamil_Nadu(TN)</a>
+            </div>
+            <div class="footer-city">
+                <a href="https://transport.delhi.gov.in/">Delhi(DL)</a>
+            </div>
+        </div>
+        <div class="copyright">© 2023 Copyright Lucky_No</div>
+    </div>
+</body>
+</html>
